@@ -28,7 +28,7 @@ void Animation::SetImages(int* img)
 //============================
 // アニメーション再生
 //============================
-void Animation::play(int start, int frame, int spd)
+void Animation::Play(int start, int frame, int spd)
 {
 	//アニメーションの開始位置
 	startFrame = start;

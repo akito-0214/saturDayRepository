@@ -20,7 +20,7 @@ public:
 	//画像設定
 	void SetImages(int* img);
 	//アニメーション再生
-	void play(int startFrame, int frameCount, int speed);
+	void Play(int startFrame, int frameCount, int speed);
 	//現在の画像取得
 	int GetImage(int currentTime);
 

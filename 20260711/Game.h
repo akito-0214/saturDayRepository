@@ -13,7 +13,7 @@ private:
 	//===============================
 	// アニメーション
 	//===============================
-	Animation animation;
+	Animation animations;
 	//分割画像
 	int images[Config::PLAYER_TOTAL_FRAMES];
 	//現在のアニメーション
@@ -21,7 +21,7 @@ private:
 	//前回のスペースキーの状態
 	bool oldSpace;
 	//アニメーション切り替え
-	void playerAnimation(AnimationType type);
+	void PlayerAnimation(AnimationType type);
 
 public:
 	//初期化
